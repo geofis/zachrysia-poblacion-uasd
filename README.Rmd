@@ -222,4 +222,12 @@ Se espera marcar al menos 50 individuos en la primera sesión y realizar dos ses
 
 Esta metodología está diseñada para garantizar la obtención de datos confiables y relevantes, permitiendo alcanzar los objetivos del estudio de manera eficiente y rigurosa.
 
+
+## Diseño de muestreo
+
+```{r}
+
+```
+
+
 # Referencias
