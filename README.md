@@ -1,4 +1,4 @@
-Dinámica poblacional, patrones de dispersión y tasas de supervivencia de
+Dinámica poblacional y patrones de dispersión y tasas de supervivencia de
 *Zachrysia provisoria* en el campus universitario<small><br>Ecología I
 (BIO-245)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
 2025-01</small>
@@ -11,10 +11,7 @@ Versión HTML (quizá más legible),
 
 ## Objetivo general
 
-Evaluar la dinámica poblacional, los patrones de dispersión y las tasas
-de supervivencia de *Zachrysia provisoria* en el campus universitario,
-con el fin de comprender su ecología y contribuir al desarrollo de
-estrategias de manejo para esta especie invasora.
+Evaluar la dinámica poblacional y los patrones de dispersión de *Zachrysia provisoria* en el campus universitario.
 
 ------------------------------------------------------------------------
 
@@ -22,8 +19,7 @@ estrategias de manejo para esta especie invasora.
 
 ### 1. ¿Cuál es el tamaño poblacional de *Zachrysia provisoria* en diferentes zonas del campus universitario durante el período de estudio (2-3 meses)?
 
-- **Objetivo**: Estimar la densidad y abundancia de *Z. provisoria* en
-  microhábitats específicos utilizando métodos de captura y recaptura.
+- **Objetivo**: Estimar el tamaño poblacional, la densidad y la distribucion espacial (¿y estructura de edades/tamaño) de *Z. provisoria* en microhábitats del campus universitario.
 - **Variables**: Número de individuos capturados, proporción de
   recapturas y distribución espacial.
 - **Método**: Marcaje de los individuos y muestreo al menos quincenal.
@@ -32,15 +28,14 @@ estrategias de manejo para esta especie invasora.
 
 ### 2. ¿Cuáles son los patrones de dispersión y movimiento de *Z. provisoria* en el campus universitario?
 
-- **Objetivo**: Evaluar la distancia y dirección de los movimientos de
-  los individuos marcados entre diferentes zonas del campus.
+- **Objetivo**: Determinar los patrones de dispersión y movimiento de *Z. provisoria* en el campus universitario, identificandooslo las distancias recorridas y las direcciónes preferenciales.
 - **Variables**: Distancia recorrida, dirección preferencial, factores
   ambientales que contribuyen a la dispersión (humedad, vegetación…).
 - **Método**: Marcado de los individuos y seguimiento de recapturas en
   diferentes puntos del campus.
 
 ------------------------------------------------------------------------
-
+Probablemente NO
 ### 3. ¿Cómo varían las tasas de supervivencia y crecimiento de *Z. provisoria* en diferentes microhábitats del campus universitario durante el muestreo?
 
 - **Objetivo**: Comparar las tasas de supervivencia y crecimiento de
@@ -53,10 +48,7 @@ estrategias de manejo para esta especie invasora.
 
 ------------------------------------------------------------------------
 
-## Análisis de datos
-
-Se aplicará el **método de Lincoln-Petersen** para estimar el tamaño
-poblacional. *(Aprender sobre este método).* (Smith and Smith 2007)
+(Smith and Smith 2007)
 
 ------------------------------------------------------------------------
 
@@ -178,7 +170,7 @@ dos sesiones de recaptura.
 
 ------------------------------------------------------------------------
 
-### Procesamiento de datos
+### Procesamiento de datos - PENDIENTE REVISAR
 
 - **Preprocesamiento**:
 
@@ -217,10 +209,6 @@ dos sesiones de recaptura.
 - **Lincoln-Petersen**: Método robusto para estimar población.
 
 ------------------------------------------------------------------------
-
-Esta metodología está diseñada para garantizar la obtención de datos
-confiables y relevantes, permitiendo alcanzar los objetivos del estudio
-de manera eficiente y rigurosa.
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
