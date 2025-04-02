@@ -1,4 +1,4 @@
-Dinámica poblacional y patrones de dispersión y tasas de supervivencia de
+Dinámica poblacional y patrones de dispersión de
 *Zachrysia provisoria* en el campus universitario<small><br>Ecología I
 (BIO-245)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
 2025-01</small>
