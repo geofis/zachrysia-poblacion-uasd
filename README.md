@@ -1,17 +1,20 @@
-Dinámica poblacional y patrones de dispersión de
+Dinámica poblacional, patrones de dispersión y tasas de supervivencia de
 *Zachrysia provisoria* en el campus universitario<small><br>Ecología I
 (BIO-245)<br>Universidad Autónoma de Santo Domingo (UASD)<br>Semestre
 2025-01</small>
 ================
 Arlen Marmolejo, El Tali<br>
-2025-03-27
+2025-04-03
 
 Versión HTML (quizá más legible),
 [aquí](https://geofis.github.io/zachrysia-poblacion-uasd/README.html)
 
 ## Objetivo general
 
-Evaluar la dinámica poblacional y los patrones de dispersión de *Zachrysia provisoria* en el campus universitario.
+Evaluar la dinámica poblacional, los patrones de dispersión y las tasas
+de supervivencia de *Zachrysia provisoria* en el campus universitario,
+con el fin de comprender su ecología y contribuir al desarrollo de
+estrategias de manejo para esta especie invasora.
 
 ------------------------------------------------------------------------
 
@@ -19,7 +22,8 @@ Evaluar la dinámica poblacional y los patrones de dispersión de *Zachrysia pro
 
 ### 1. ¿Cuál es el tamaño poblacional de *Zachrysia provisoria* en diferentes zonas del campus universitario durante el período de estudio (2-3 meses)?
 
-- **Objetivo**: Estimar el tamaño poblacional, la densidad y la distribucion espacial (¿y estructura de edades/tamaño) de *Z. provisoria* en microhábitats del campus universitario.
+- **Objetivo**: Estimar la densidad y abundancia de *Z. provisoria* en
+  microhábitats específicos utilizando métodos de captura y recaptura.
 - **Variables**: Número de individuos capturados, proporción de
   recapturas y distribución espacial.
 - **Método**: Marcaje de los individuos y muestreo al menos quincenal.
@@ -28,14 +32,15 @@ Evaluar la dinámica poblacional y los patrones de dispersión de *Zachrysia pro
 
 ### 2. ¿Cuáles son los patrones de dispersión y movimiento de *Z. provisoria* en el campus universitario?
 
-- **Objetivo**: Determinar los patrones de dispersión y movimiento de *Z. provisoria* en el campus universitario, identificandooslo las distancias recorridas y las direcciónes preferenciales.
+- **Objetivo**: Evaluar la distancia y dirección de los movimientos de
+  los individuos marcados entre diferentes zonas del campus.
 - **Variables**: Distancia recorrida, dirección preferencial, factores
   ambientales que contribuyen a la dispersión (humedad, vegetación…).
 - **Método**: Marcado de los individuos y seguimiento de recapturas en
   diferentes puntos del campus.
 
 ------------------------------------------------------------------------
-Probablemente NO
+
 ### 3. ¿Cómo varían las tasas de supervivencia y crecimiento de *Z. provisoria* en diferentes microhábitats del campus universitario durante el muestreo?
 
 - **Objetivo**: Comparar las tasas de supervivencia y crecimiento de
@@ -48,7 +53,10 @@ Probablemente NO
 
 ------------------------------------------------------------------------
 
-(Smith and Smith 2007)
+## Análisis de datos
+
+Se aplicará el **método de Lincoln-Petersen** para estimar el tamaño
+poblacional. *(Aprender sobre este método).* (Smith and Smith 2007)
 
 ------------------------------------------------------------------------
 
@@ -170,7 +178,7 @@ dos sesiones de recaptura.
 
 ------------------------------------------------------------------------
 
-### Procesamiento de datos - PENDIENTE REVISAR
+### Procesamiento de datos
 
 - **Preprocesamiento**:
 
@@ -183,18 +191,27 @@ dos sesiones de recaptura.
   - **Pruebas de normalidad**:
     - Shapiro-Wilk
   - **Comparación de medias**:
-    - t de Student (2 grupos)
-    - ANOVA (\>2 grupos)
+    - t de Student o Suma de Rangos de Wilcoxon (2 grupos)
+    - ANOVA o Kruskal-Wallis (\>2 grupos)
   - **Correlación**:
     - Pearson (datos normales)
     - Spearman (no normales/ordinales)
   - **Modelos de regresión**:
     - Regresión lineal: tasas de supervivencia vs. ambiente
     - Regresión logística: presencia/ausencia según variables
+    - Modelos de efecto mixto (efectos aleatorios para capturas
+      repetidas)
   - **Análisis multivariado**:
-    - PCA para patrones espaciales
+    - PCA para explorar ordenación de las subpoblaciones (si las
+      hubiere) y asociación con variables ambientales.
+  - **Ecología espacial**:
+    - Análisis de patrones de dispersión y movimiento
+    - Análisis de distancia/vecindad entre puntos de captura
+    - Análisis de autocorrelación espacial (Moran’s I)
+    - Modelos de ocupación para evaluar la distribución espacial
   - **Lincoln-Petersen**:
     - Estimación del tamaño poblacional, con IC del 95%
+  - **Otros estimadores**
 
 ------------------------------------------------------------------------
 
@@ -206,9 +223,58 @@ dos sesiones de recaptura.
 - **Correlación**: Relación entre variables ambientales y dinámica
   poblacional.
 - **Regresión**: Cuantificar impacto de variables independientes.
-- **Lincoln-Petersen**: Método robusto para estimar población.
+- **PCA**: Explorar asociación de subpoblaciones con variables
+  ambientales.
+- **Ecología espacial**: Evaluar vecindad, patrones de dispersión y
+  movimiento.
+- **Lincoln-Petersen**: Método para estimar población a partir de dos
+  conteos.
+- **Modelos de Otis (M0)**: Modelo de captura-recaptura, que es el
+  modelo nulo de la familia Modelos de Otis et al. (1978)
+- **POPAN**: Extensión del método de Lincoln-Petersen para datos de
+  captura y recaptura.
 
 ------------------------------------------------------------------------
+
+Esta metodología está diseñada para garantizar la obtención de datos
+confiables y relevantes, permitiendo alcanzar los objetivos del estudio
+de manera eficiente y rigurosa.
+
+## Diseño de muestreo
+
+Se requiere establecer un diseño de muestreo adecuado para capturar y
+marcar individuos de *Zachrysia provisoria* en diferentes microhábitats
+del área de “las embajadas”.
+
+Se deberá considerar, de manera preceptiva, el registro de la ausencia
+para apoyar modelizaciones. Esta tarea podría complementar el trabajo de
+investigación en **Zachrysia**, porque permitría obtener un patrón lo
+más insesgado posible de la distribución de la especie, al menos en el
+área de “las embajadas”, y calcular densidades verdaderas, aplicables a
+toda el área de estudio, incluso extrapolables a otras áreas con
+características similares (e.g., dosel + estructuras humanas). No se
+necesitara barrer toda el área (que de por sí es pequeña), pero sí que
+hay que pasar por el (para muchos) “frustrante” proceso de visitar
+cuadros donde lo único que se va a apuntar son los valores de las
+variables ambientales y un “cero” en la casilla “número de individuos”.
+
+## Mapa de muestreo
+
+Necesitamos aunque sea un mapa básico del área de las embajadas. Por el
+momento, desconocemos si se podrá hacer un mapa con drones o si habrá
+que hacerlo a mano. Una visita previa de campo nos lo aclarará. El mapa
+más detallado que tenemos es el siguiente:
+
+<div class="figure">
+
+<img src="figuras/area-de-estudio-segun-ge.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
+<p class="caption">
+(#fig:area_estudio_ge)Área de estudio, según GoogleEarth
+</p>
+
+</div>
+
+# Referencias
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
