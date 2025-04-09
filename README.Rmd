@@ -266,7 +266,7 @@ Lo ideal hubiese sido disponer de información previa del área, pero no lo hemo
 
 Para rellenar información de capturas de animales, usa [este formulario](https://script.google.com/macros/s/AKfycbzrqJngwvFA6hp459R3A07nxi7FW_c7rVYZAYT-kSYGpaIGJSRpV47FgXxCjpoAqScM/exec). Necesitarás autenticar alguna cuenta de correo de Google.
 
-[Aquí tienes](https://docs.google.com/spreadsheets/d/1ojcDkMX7uO3dCnVA29JSlRakT7YP6kA9YJiH_BlChXs/edit?usp=sharing) dispones del enlace a la hoja de cálculo que va recibiendo los formularios rellenos, para fines de consulta.
+Por si fuese necesario, [aquí tienes](https://docs.google.com/spreadsheets/d/1ojcDkMX7uO3dCnVA29JSlRakT7YP6kA9YJiH_BlChXs/edit?usp=sharing) el enlace a la hoja de cálculo que va recibiendo los formularios rellenos, para fines de consulta.
 
 
 # Referencias
