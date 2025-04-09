@@ -261,10 +261,20 @@ variables ambientales y un “cero” en la casilla “número de individuos”.
 ## Mapa de muestreo
 
 Necesitamos aunque sea un mapa básico del área de estudio. Hemos
-construido un diseño de muestreo basado en hexágonos de la biblioteca H3
-(de Uber), el cual puedes consultar
+dividido el área de muestreo en hexágonos de la biblioteca H3 (de Uber),
+y lo representamos en el mapa que puedes consultar
 [aquí](https://www.google.com/maps/d/u/0/edit?mid=1zmduHx1pqN-z9EDCJ7U5P_ah-Dowcus&usp=sharing).
-Este el código QR:
+
+Este el código QR del mapa:
+
+<div class="figure">
+
+<img src="figuras/qr-mapa.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
+<p class="caption">
+(#fig:mapa_hexagonos_qr)Área de estudio, según GoogleEarth
+</p>
+
+</div>
 
 El mapa debería parecerse a éste:
 
@@ -272,10 +282,24 @@ El mapa debería parecerse a éste:
 
 <img src="figuras/mapa-hexagonos-patio-fc-oeste.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
 <p class="caption">
-(#fig:area_estudio_ge)Área de estudio, según GoogleEarth
+(#fig:mapa_hexagonos)Área de estudio, según GoogleEarth
 </p>
 
 </div>
+
+Lo ideal hubiese sido disponer de información previa del área, pero no
+lo hemos conseguido, es un “trabajo en progreso”. Mientras tanto, aun
+sin información previa, es posible colectar datos en el lugar y, lo más
+importante, capturar y marcar animales.
+
+Para rellenar información de capturas de animales, usa [este
+formulario](https://script.google.com/macros/s/AKfycbzrqJngwvFA6hp459R3A07nxi7FW_c7rVYZAYT-kSYGpaIGJSRpV47FgXxCjpoAqScM/exec).
+Necesitarás autenticar alguna cuenta de correo de Google.
+
+[Aquí
+tienes](https://docs.google.com/spreadsheets/d/1ojcDkMX7uO3dCnVA29JSlRakT7YP6kA9YJiH_BlChXs/edit?usp=sharing)
+dispones del enlace a la hoja de cálculo que va recibiendo los
+formularios rellenos, para fines de consulta.
 
 # Referencias
 

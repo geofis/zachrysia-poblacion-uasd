@@ -248,20 +248,25 @@ Se deberá considerar, de manera preceptiva, el registro de la ausencia para apo
 
 ## Mapa de muestreo
 
-Necesitamos aunque sea un mapa básico del área de estudio. Hemos construido un diseño de muestreo basado en hexágonos de la biblioteca H3 (de Uber), el cual puedes consultar [aquí](https://www.google.com/maps/d/u/0/edit?mid=1zmduHx1pqN-z9EDCJ7U5P_ah-Dowcus&usp=sharing). Este el código QR:
+Necesitamos aunque sea un mapa básico del área de estudio. Hemos dividido el área de muestreo en hexágonos de la biblioteca H3 (de Uber), y lo representamos en el mapa que puedes consultar [aquí](https://www.google.com/maps/d/u/0/edit?mid=1zmduHx1pqN-z9EDCJ7U5P_ah-Dowcus&usp=sharing).
+
+Este el código QR del mapa:
+
+```{r mapa_hexagonos_qr, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
+knitr::include_graphics(paste(figuras, "qr-mapa.jpg", sep = '/'))
+```
 
 El mapa debería parecerse a éste:
 
-```{r area_estudio_ge, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
+```{r mapa_hexagonos, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
 knitr::include_graphics(paste(figuras, "mapa-hexagonos-patio-fc-oeste.jpg", sep = '/'))
 ```
 
+Lo ideal hubiese sido disponer de información previa del área, pero no lo hemos conseguido, es un "trabajo en progreso". Mientras tanto, aun sin información previa, es posible colectar datos en el lugar y, lo más importante, capturar y marcar animales.
 
+Para rellenar información de capturas de animales, usa [este formulario](https://script.google.com/macros/s/AKfycbzrqJngwvFA6hp459R3A07nxi7FW_c7rVYZAYT-kSYGpaIGJSRpV47FgXxCjpoAqScM/exec). Necesitarás autenticar alguna cuenta de correo de Google.
 
-
-```{r}
-
-```
+[Aquí tienes](https://docs.google.com/spreadsheets/d/1ojcDkMX7uO3dCnVA29JSlRakT7YP6kA9YJiH_BlChXs/edit?usp=sharing) dispones del enlace a la hoja de cálculo que va recibiendo los formularios rellenos, para fines de consulta.
 
 
 # Referencias
