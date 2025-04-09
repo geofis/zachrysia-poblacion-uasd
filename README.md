@@ -269,9 +269,9 @@ Este el código QR del mapa:
 
 <div class="figure">
 
-<img src="figuras/qr-mapa.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
+<img src="figuras/qr-mapa.jpg" alt="Código QR para ir al mapa" width="30%" />
 <p class="caption">
-(#fig:mapa_hexagonos_qr)Área de estudio, según GoogleEarth
+(#fig:mapa_hexagonos_qr)Código QR para ir al mapa
 </p>
 
 </div>
@@ -280,9 +280,10 @@ El mapa debería parecerse a éste:
 
 <div class="figure">
 
-<img src="figuras/mapa-hexagonos-patio-fc-oeste.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
+<img src="figuras/mapa-hexagonos-patio-fc-oeste.jpg" alt="Área de estudio, dividida en hexágonos de resolución 13 de la biblioteca H3 de Uber" width="80%" />
 <p class="caption">
-(#fig:mapa_hexagonos)Área de estudio, según GoogleEarth
+(#fig:mapa_hexagonos)Área de estudio, dividida en hexágonos de
+resolución 13 de la biblioteca H3 de Uber
 </p>
 
 </div>

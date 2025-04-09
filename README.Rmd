@@ -252,13 +252,13 @@ Necesitamos aunque sea un mapa básico del área de estudio. Hemos dividido el �
 
 Este el código QR del mapa:
 
-```{r mapa_hexagonos_qr, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
+```{r mapa_hexagonos_qr, echo=F, fig.cap='Código QR para ir al mapa', out.width='30%'}
 knitr::include_graphics(paste(figuras, "qr-mapa.jpg", sep = '/'))
 ```
 
 El mapa debería parecerse a éste:
 
-```{r mapa_hexagonos, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
+```{r mapa_hexagonos, echo=F, fig.cap='Área de estudio, dividida en hexágonos de resolución 13 de la biblioteca H3 de Uber', out.width='80%'}
 knitr::include_graphics(paste(figuras, "mapa-hexagonos-patio-fc-oeste.jpg", sep = '/'))
 ```
 
