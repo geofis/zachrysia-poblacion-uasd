@@ -4,7 +4,7 @@ Dinámica poblacional, patrones de dispersión y tasas de supervivencia de
 2025-01</small>
 ================
 Arlen Marmolejo, El Tali<br>
-2025-04-03
+2025-04-09
 
 Versión HTML (quizá más legible),
 [aquí](https://geofis.github.io/zachrysia-poblacion-uasd/README.html)
@@ -260,14 +260,17 @@ variables ambientales y un “cero” en la casilla “número de individuos”.
 
 ## Mapa de muestreo
 
-Necesitamos aunque sea un mapa básico del área de las embajadas. Por el
-momento, desconocemos si se podrá hacer un mapa con drones o si habrá
-que hacerlo a mano. Una visita previa de campo nos lo aclarará. El mapa
-más detallado que tenemos es el siguiente:
+Necesitamos aunque sea un mapa básico del área de estudio. Hemos
+construido un diseño de muestreo basado en hexágonos de la biblioteca H3
+(de Uber), el cual puedes consultar
+[aquí](https://www.google.com/maps/d/u/0/edit?mid=1zmduHx1pqN-z9EDCJ7U5P_ah-Dowcus&usp=sharing).
+Este el código QR:
+
+El mapa debería parecerse a éste:
 
 <div class="figure">
 
-<img src="figuras/area-de-estudio-segun-ge.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
+<img src="figuras/mapa-hexagonos-patio-fc-oeste.jpg" alt="Área de estudio, según GoogleEarth" width="100%" />
 <p class="caption">
 (#fig:area_estudio_ge)Área de estudio, según GoogleEarth
 </p>

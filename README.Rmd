@@ -3,16 +3,16 @@ title: "Dinámica poblacional, patrones de dispersión y tasas de supervivencia 
 author: "Arlen Marmolejo, El Tali<br>"
 date: "`r format(Sys.Date(), '%Y-%m-%d')`"
 output:
-  bookdown::github_document2:
-    number_sections: false
-    fig_caption: yes
-  # bookdown::html_document2:
+  # bookdown::github_document2:
   #   number_sections: false
-  #   code_folding: show
   #   fig_caption: yes
-  #   md_extensions: "-fancy_lists"
-  #   toc: true
-  #   toc_depth: 3
+  bookdown::html_document2:
+    number_sections: false
+    code_folding: show
+    fig_caption: yes
+    md_extensions: "-fancy_lists"
+    toc: true
+    toc_depth: 3
 editor_options:
   chunk_output_type: console
 always_allow_html: true
@@ -248,10 +248,12 @@ Se deberá considerar, de manera preceptiva, el registro de la ausencia para apo
 
 ## Mapa de muestreo
 
-Necesitamos aunque sea un mapa básico del área de las embajadas. Por el momento, desconocemos si se podrá hacer un mapa con drones o si habrá que hacerlo a mano. Una visita previa de campo nos lo aclarará. El mapa más detallado que tenemos es el siguiente:
+Necesitamos aunque sea un mapa básico del área de estudio. Hemos construido un diseño de muestreo basado en hexágonos de la biblioteca H3 (de Uber), el cual puedes consultar [aquí](https://www.google.com/maps/d/u/0/edit?mid=1zmduHx1pqN-z9EDCJ7U5P_ah-Dowcus&usp=sharing). Este el código QR:
+
+El mapa debería parecerse a éste:
 
 ```{r area_estudio_ge, echo=F, fig.cap='Área de estudio, según GoogleEarth', out.width='100%'}
-knitr::include_graphics(paste(figuras, "area-de-estudio-segun-ge.jpg", sep = '/'))
+knitr::include_graphics(paste(figuras, "mapa-hexagonos-patio-fc-oeste.jpg", sep = '/'))
 ```
 
 
